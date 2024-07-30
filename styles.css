@@ -6,7 +6,12 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    color: #fffffe;
+    color: #272343;
+}
+
+h1 , h2 , h3 , p{
+    margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -14,20 +19,74 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0px 20px;
+    height: 12vh;
 }
 
-.header h1{
+.header-icon{
+    display: flex;
+    align-items: center;
+}
+
+.header-icon h1{
     color: #e3f6f5;
+}
+
+.header-icon img{
+    width: 55px;
+    margin-bottom: 10px;
+    margin-right: 8px;
 }
 
 .header .navbar a{
     color: #fffffe;
     text-decoration: none;
-    padding-left: 25px;
+    margin-left: 25px;
 }
 
 .navbar a:hover{
     color: #ffd803;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('https://img.freepik.com/premium-photo/modern-chic-stylish-flat-lay-composition-with-coffee-cup-elegant-gold-black-background_444642-32310.jpg?w=740');
+    background-size: cover;
+    background-position: center;
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content{
+    width: 800px;
+}
+.hero-content h2{
+    color: #fffffe;
+    font-size: 3rem;
+    margin-bottom: 14px;
+}
+
+.hero-content p{
+    font-size: 16px;
+    color: #bebebe;
+}
+
+.hero-content button{
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #ffd803;
+    color: #272343;
+}
+
+.hero-content button:hover{
+    background-color:#dab900 ;
 }
