@@ -170,6 +170,7 @@ h1 , h2 , h3 , p{
 .contact-container{
     background-color: #e3f6f5;
     padding: 20px;
+    min-height: 80vh;
 }
 
 .contact-container h2{
@@ -212,4 +213,11 @@ h1 , h2 , h3 , p{
 
 .contact-form button:hover {
     background-color: #e6c300;
+}
+
+
+.footer {
+    background-color: #272343;
+    color: #fffffe;
+    padding: 20px;
 }
